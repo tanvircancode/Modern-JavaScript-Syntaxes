@@ -7,7 +7,7 @@
 // console.log(number(2));
 
 var javascript = {
-    name: "JavaScript",
+    name: "JavaSasassacript",
     libraries: ["React", "Vue", "Angular"],
     printLibraries: function () {
         this.libraries.forEach((a) =>  console.log(`${this.name} loves ${a}`));
