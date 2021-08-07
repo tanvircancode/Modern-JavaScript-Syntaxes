@@ -9,4 +9,4 @@ const res = numbers.find(function (currentValue,currentIndex,arr) {
 });
 
 console.log(res);
-// console.log(numbers);
+// console.log(numbers)
