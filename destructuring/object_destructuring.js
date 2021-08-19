@@ -3,9 +3,9 @@ const user = {
     id: 339,
     age: 35,
     name: "Sakib",
-    education: {
-        degree: "Masters",
-    }
+    // education: {
+    //     degree : "MAsters",
+    // }
 };
 
 // find name property using loop
@@ -18,5 +18,5 @@ const user = {
 
 // console.log(user['name']);
 
-var { education:{degree }, } = user;
-console.log(degree);
+const {education:{degree: x} = {} } = user;
+console.log(x);
