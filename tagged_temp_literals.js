@@ -14,5 +14,4 @@ function modifier(strings, ...values) {
 var player1 = "Sakib";
 var player2 = "Tamim";
 
-// console.log(modifier`We have ${player1} and ${player2} in our cricket team`);
-con
+console.log(modifier`We have ${player1} and ${player2} in our cricket team`);
